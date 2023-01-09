@@ -6,9 +6,14 @@ while (true) {
         break;
     }
 }
-soundeffect.play();
+function PlaySound() {
+    let soundeffect = new Audio('/audio/check.mp3')
+    soundeffect.play();
+}
 
 window.onload=function(){
     var button = document.getElementById("funnybutton")
     button.addEventListener("mouseover", button.click());
-}
+    button.addEventListener("mouseover", PlaySound());
+};
+
