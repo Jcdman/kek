@@ -1,0 +1,12 @@
+body{
+    background-image: url("./images/trollface.png");
+    background-size: 100px;
+}
+
+.funny {
+    font-family: cursive;
+    font: bolder;
+    font-size: x-large;
+    background-color: black;
+};
+
